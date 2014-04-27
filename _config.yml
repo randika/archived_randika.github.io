@@ -1,3 +1,4 @@
 name: Randika Rathugama
 markdown: redcarpet
 pygments: true
+permalink: /:title/
