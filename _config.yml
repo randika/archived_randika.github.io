@@ -1,4 +1,24 @@
-name: Randika Rathugama
-markdown: redcarpet
-pygments: true
-permalink: /:year/:month/:day/:title/
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Randika Rathugama'
+tagline:          'Randika Rathugama - Ruby on rails developer, Sri Lanka'
+description:      'A coder - Loves working with ruby, node.js, aws cloud, OSX, *nix'
+url:              http://randika.com
+
+author:
+  name:           'Randika Rathugama'
+  url:            https://twitter.com/randikasays
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/randika
