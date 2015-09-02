@@ -2,7 +2,7 @@
 layout: post
 title: AWS-Ruby SDK and Elastic Transcoder Example
 
-date: 2015-07-07 09:27:50 +00:00
+date: 2015-09-02 18:36:50 +00:00
 ---
 
 AWS Elastic Transcoder is a very handy service if you looking for a cost effective, scalable solution to Transcode your  audio or video files.
