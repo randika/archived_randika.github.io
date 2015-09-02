@@ -6,13 +6,13 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            'Randika Rathugama'
-tagline:          'Randika Rathugama - Ruby on rails developer, Sri Lanka'
+title:            'Randika Rathugamage'
+tagline:          'Randika Rathugamage - Ruby on rails developer, Sri Lanka'
 description:      'A coder - Loves working with ruby, node.js, aws cloud, OSX, *nix'
 url:              http://randika.com
 
 author:
-  name:           'Randika Rathugama'
+  name:           'Randika Rathugamage'
   url:            https://twitter.com/randikasays
 
 paginate:         5
