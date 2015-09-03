@@ -8,7 +8,7 @@ date: 2015-09-02 18:36:50 +00:00
 AWS Elastic Transcoder is a very handy service if you looking for a cost effective, scalable solution to Transcode your  audio or video files.
 AWS Elastic Transcoder takes input from a S3 bucket, transcodes it, and writes the resulting file to another S3 bucket - well you could also use the same bucket if you prefer.
 
-Here is a very quick code extracted from one of a project I'm currenly working on. Here the uploaded .m4a audio files will be transcoded to HLS (HTTP Live Streaming) - m4a files will be first uploaded by mobile apps to a S3 bucket let’s call it “s3.audio.input”. Files will be saved on the root of the input s3 bucket **s3.audio.input/{UUID}.m4a** and transcoded HLS audio will be saved on **s3.audio.output/hlsv4/{UUID}/index.m3u8**
+Here is a very quick code extracted from one of a project I'm currenly working on. Here the uploaded .m4a audio files will be transcoded to HLS (HTTP Live Streaming) - m4a files will be first uploaded to a S3 bucket let’s call it “s3.audio.input”. Files will be saved on the root of the input s3 bucket **s3.audio.input/{UUID}.m4a** and transcoded HLS audio will be saved on **s3.audio.output/hlsv4/{UUID}/index.m3u8**
 
 
 ```ruby
