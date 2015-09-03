@@ -70,7 +70,7 @@ class Transcoder < Message
 end
 ```
 
-As you have already noticed, I'm using an UUID to keep track of the data submiited to S3, Trancoder pipeline with active record - (MySQL database).
+As you have already noticed, I'm using an UUID to keep track of the data submited to S3, Trancoder pipeline with active record - (MySQL database).
 
 
 The example above writes the resulting job data to active record object immediately after submit the job to transcoder service. `job.data[:job][:id]` is the uniqe identification (Usually looks like `1441177406727-xxxxx`) returned from AWS which you can use for further querying the transcoder API and get the details of the submited job.
